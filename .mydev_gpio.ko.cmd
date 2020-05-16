@@ -1,0 +1,1 @@
+cmd_/root/Raspberry-Pi-Zero-W-GPIO-IOCTL-Device-Driver/mydev_gpio.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /root/Raspberry-Pi-Zero-W-GPIO-IOCTL-Device-Driver/mydev_gpio.ko /root/Raspberry-Pi-Zero-W-GPIO-IOCTL-Device-Driver/mydev_gpio.o /root/Raspberry-Pi-Zero-W-GPIO-IOCTL-Device-Driver/mydev_gpio.mod.o ;  true
