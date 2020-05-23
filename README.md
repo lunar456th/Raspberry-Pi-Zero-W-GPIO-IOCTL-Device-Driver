@@ -33,7 +33,7 @@ Linux device driver for raspberry pi zero w gpio using ioctl.
 > make test
 
 4. How to build test app for library
-> make testlib
+> make libtest
 
 ## How to clean
 
@@ -47,7 +47,7 @@ Linux device driver for raspberry pi zero w gpio using ioctl.
 > make testclean
 
 4. Hot wo clean test app for library
-> make testlibclean
+> make libtestclean
 
 ## Example
 

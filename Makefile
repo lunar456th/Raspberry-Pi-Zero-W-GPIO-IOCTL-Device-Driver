@@ -18,11 +18,11 @@ lib:
 test:
 	gcc -o test_$(NAME) test_$(NAME).c
 
-testlib:
+libtest:
 	gcc -o test_lib$(NAME) test_lib$(NAME).c -L. -l$(NAME)
 
 
-testlibclean:
+libtestclean:
 	rm -f test_lib$(NAME)
 
 testclean:
