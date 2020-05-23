@@ -19,6 +19,7 @@ test:
 	gcc -o test_$(NAME) test_$(NAME).c
 
 libtest:
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
 	gcc -o test_lib$(NAME) test_lib$(NAME).c -L. -l$(NAME)
 
 
